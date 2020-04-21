@@ -66,6 +66,10 @@
 	clear:both;
 }
 
+.img-responsive {
+	max-width:100%;
+}
+
 [class*="col-"]{
 	height: 50px;
 	background-color:cornflowerblue;
@@ -225,4 +229,23 @@
 .col-lg-12 {
 	width: calc(100%*12/12);	
 	}	
+}
+
+
+/*-------------------------------------------------------------
+6.0 - COMPONENTS
+-------------------------------------------------------------- */
+
+#bg-circle {
+	background-image: url("../img/purple-circle2x.png");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-origin: content-box;
+}
+
+#flower-padding {
+	background-image: url("../img/flower-2-3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: padding-box;
 }
